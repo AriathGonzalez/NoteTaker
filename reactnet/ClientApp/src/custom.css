@@ -1,0 +1,46 @@
+/* Provide sufficient contrast against white background */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0cea0;
+  color: black;
+}
+
+.card {
+  background: white;
+  color: black;
+}
+
+button.btn {
+  color: black;
+  background-color: #f3a712;
+}
+
+button.btn:hover {
+  background-color: #f0cea0;
+}
+
+button.btn:focus,
+button.btn:active,
+button.btn:active:focus {
+  background-color: #f3a712;
+  color: black;
+}
+
+#create-note {
+  z-index: 1;
+}
+
+#edit-note {
+  z-index: 1;
+}
+
+.custom-icon {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.button-container {
+  display: flex;
+  gap: 0.5rem;
+}
