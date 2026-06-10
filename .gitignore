@@ -232,4 +232,4 @@ _Pvt_Extensions
 .fake/
 
 /db
-.vscode
+/.vscode
